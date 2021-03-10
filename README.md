@@ -4,7 +4,8 @@ This is a simple example of how to run Checkly checks against a Vercel password-
 
 ## Content
 
-The `main.tf` Terraform file defines our Checkly Browser check, as well as a snippet which handles the password protection.
+* The `main.tf` Terraform file defines our Checkly Browser check, as well as a snippet which handles the password protection.
+* The `scripts` and `snippet` folders contain the source code of both scripts and snippets referenced in the `main.tf` file.
 
 ## Usage
 
