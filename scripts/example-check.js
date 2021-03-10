@@ -9,7 +9,6 @@ const {chromium} = require("playwright");
     {{> handle_pp }}
 
     // YOUR CHECK LOGIC HERE
-    // e.g.:
 
     await browser.close();
 
