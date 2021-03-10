@@ -13,5 +13,7 @@ This is a simple example of how to run Checkly checks against a Vercel password-
 1. `terraform init`
 2. `terraform plan`
 3. `terraform apply`
-4. on Checkly, link created check to your application's GitHub repository
+4. on Checkly, [link created check](https://www.checklyhq.com/docs/cicd/github/) to your application's GitHub repository
 5. commit to PR
+
+Note: you might want to deactivate the browser check to prevent it from running on a schedule.
